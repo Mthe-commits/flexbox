@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>A-movable laundry</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <div class="heading">
+        <div>
+
+            <h2><span style="color: brown;">A</span>-movable laundry</h2>
+        </div>
+
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+            <li><u><a href="#">Bookings</a></u></li>
+            <li><a href="Login.html"><i class="fa fa-sign-in" aria-hidden="true"> </i></i></a></li>
+        </ul>
+    </div>
+
+
+
+    <div class=" shoe ">
+        <div id="common">
+
+            <form action="reservation.php" method="post">
+
+                <div class="elem-group">
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" name="visitor_name" placeholder="John doe" pattern="[A-Z\sa-z]{3,20} required " </div>
+                </div>
+                <div class="elem-group">
+                    <label for="upassword ">Surname </label>
+                    <input type="text " id="sname " pattern="[a,z][0,9] " required>
+                </div>
+                <div class="elem-group">
+                    <label for="name">Your E-mail</label>
+                    <input type="text" id="email" name="visitor_email" placeholder="Morris@gmail.com" required>
+                </div>
+                <div class="elem-group">
+                    <label for="umail "><label for="phne ">Contact No: </label></label>
+                    <input type="number " id="phne " placeholder="+27762092934 " pattern="[a,z][0,9]" required>
+                </div>
+                <div class="elem-group.inlined">
+                    <label for="adult">Number of Items:</label>
+                    <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+                </div>
+                <div class="elem-group.inlined">
+                    <label for="child">Weight:/Kg</label>
+                    <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+                </div>
+                <div class="elem-group inlined">
+                    <label for="checkin-date"> Pick-up date</label>
+                    <input type="date" id="checkin-date" name="checkin" required>
+                </div>
+                <div class="elem-group inlined">
+                    <label for="checkout-date">Drop-off date</label>
+                    <input type="date" id="checkout-date" name="checkout" required>
+                </div>
+                <div class="elem-group">
+                    <label for="room-selection">Service Type:</label>
+                    <select id="room-selection" name="room_preference" required> 
+                      <option value="connecting">Ironing </option> 
+                      <option value="adjoining">Drying </option> 
+                      <option value="adjacent">Washing</option> 
+                   </select>
+                </div>
+
+                <div class="elem-group ">
+                    <label for="message">Message</label>
+
+                    <textarea id="message" name="visitor_message" placeholder="Anything else not stated you would like to be attended ." required></textarea>
+                </div>
+                <div class="elem-groups">
+                    <button type="submit"> Book Now </button>
+                </div>
+
+            </form>
+
+
+        </div>
+    </div>
+
+    <hr>
+    <footer>
+        <div id="headingfooter">
+            <p>Copyright ©2023 All rights reserved | Made by Innovation on Technology</p>
+              <a href="facebook.com" class="fa fa-facebook"></a>
+            <a href="twitter.com" class="fa fa-twitter"></a>
+            <a href="instagram.com" class="fa fa-instagram"></a>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+
+.heading {
+    width: 100%;
+    background-color: lightblue;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.heading ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.heading ul li {
+    margin: 0 10px;
+}
+
+.heading ul li a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+label {
+    width: 140px;
+    display: inline-block;
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+
+body {
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.form-box {
+    width: 350px;
+    background: linear-gradient(45deg, #D8BFD8,lightblue, #EE82EE);
+    margin: 4% auto;
+    padding: 20px 50px;
+    border-radius: 25px;
+    color: #DC143C;
+    margin-bottom: 5px;
+    box-shadow: 0 0 20px 2px rgba(#2F4F4F);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.input-box {
+    margin: 31px auto;
+    width: 80%;
+    border-bottom: 1px solid #778899;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+}
+
+.input-box {
+    width: 80%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #778899;
+}
+
+::placeholder {
+    color: rgb(154, 158, 157);
+}
+
+.login-btn {
+    margin: 40px auto 20px;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    border: 1px solid #2F4F4F;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+}
+
+.register-btn {
+    margin: 40px auto 20px;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    border: 1px solid #2F4F4F;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+}
+
+.hero {
+    padding-top: 70px;
+    background-color: rgb(227, 231, 233);
+    color: black;
+    padding: 40px 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+.container {
+    width: 85%;
+}
+
+.aboutuscontent {
+    text-align: center;
+}
+
+.headingfooter {
+    width: 100%;
+    background-color: lightblue;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    padding: 50px 20px;
+}
+
+.how-it-works {
+    
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.how-it-works .container {
+    
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: lightblue;
+    color: black;
+    padding: 40px 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+    border-style: double;
+}
+
+.aboutuscontent {
+    text-align: center;
+}
+
+#herocontact {
+    padding-top: 70px;
+    background: rgb(227, 231, 233);
+    background-color: lightgray;
+    color: white;
+    padding: 40px 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+#headingfooter {
+    background-color: lightblue;
+    padding-bottom: 50px;
+    color: gray;
+    text-align: center;
+}
+
+#headingfooter_contact {
+    text-align: center;
+    background-color: rgb(248, 232, 8);
+    padding-bottom: 150px;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 40px;
+    margin-left: 30px;
+}
+
+#h1contact {
+    background-color: lightgray;
+    text-align: center;
+}
+
+#pcontact {
+    text-align: center;
+}
+
+#icontact {
+    text-align: center;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px 2px;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px 2px;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px 2px;
+}
+
+.containe {
+    width: 85%;
+}
+
+.s {
+    background-color: lightblue;
+    color: black;
+    padding: 40px 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+    border-style: double;
+}
+
+.parent {
+    background-image: url(./images/WASHING.jpg);
+    background-repeat:repeat;
+    background:cover;
+}
+
+.spando {
+    width: 700px;
+    background-color: #808080;
+    margin: 4% auto;
+    padding: 30px 30px;
+    border-radius: 20px;
+    color: black;
+    margin-bottom: 2px;
+}
+
+.kurt {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.wash {
+    color: black;
+    margin: 20px 20px;
+    border-radius: 10px;
+    border-style: double;
+    text-align: center;
+    padding: 40px 0;
+    padding-left: 20px;
+}
+
+.dry {
+    background-color: #808080;
+    color: black;
+    border-radius: 10px;
+    border-style: double;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+div.elem-group {
+    margin: 10px 0;
+    display: inline-block;
+}
+
+div.elem-group.inlined {
+    width: 30%;
+    display: inline-block;
+    float: left;
+    margin: 1%
+}
+
+textarea {
+    height: 50px;
+}
+
+button {
+    height: 40px;
+    background: lightgray;
+    border: none;
+    color: blue;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    font-size: 1em;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+}
+
+#common {
+    background-image: url(./images/Shirt.jpeg);
+    background-repeat:no-repeat;
+    background: cover;
+}
+
+.shoe {
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 70px;
+}
+
+fieldset {
+    background-color: white;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.elem-groups {
+    padding-bottom: 50px;
+}
+.astrum h1 p{
+    text-align: center;
+}
